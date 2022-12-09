@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark-blue  h-screen flex justify-center items-center text-center">
+  <!-- main start -->
+  <main class="w-[30em] bg-dark-grayish-blue flex flex-col justify-center 
+  items-center p-7 font-manrope rounded-2xl shadow-xl relative mx-3">
+    <!-- main title -->
+    <h1 class="w-8 text-neon-green uppercase flex text-xs tracking-widest -ml-12 mb-7">
+      advice
+      <span id="advice-id" class="ml-2"></span>
+    </h1>
+    <!-- main qupte generator -->
+    <p class="text-light-cyan text-xl transition-all duration-75 ease-in delay-100" id="advice-quote-gen">
+      Click The Dice Button 
+    </p>
+    <div class="w-full my-10">
+      <img src="/images/pattern-divider-desktop.svg" alt="">
+    </div>
+    <button type="button" id="button" class="flex justify-center items-center shadow-3xl rounded-3xl bg-neon-green w-12 h-12 absolute -bottom-6  hover:shadow-neon-shadow transition duration-1000 ease-in delay-100 ">
+      <img class="w-6/12" src="/images/icon-dice.svg" alt=""></button>
+  </main>
+  <!-- main end -->
+  <script src="/src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --primary-color1: hsl(193, 38%, 86%);
+        --primary-color2: hsl(150, 100%, 66%);
+
+        --neutral-color1: hsl(217, 19%, 38%);
+        --netural-color2: hsl(217, 19%, 24%);
+        --neutral-color3: hsl(218, 23%, 16%);
+    }
+}
